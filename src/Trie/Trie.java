@@ -126,8 +126,6 @@ public class Trie {
         Node node = trie.new Node();
         trie.add("book");
         System.out.println(trie.contains("books"));
-
         System.out.println(trie.containsLimit("b.o.."));
-
     }
 }
